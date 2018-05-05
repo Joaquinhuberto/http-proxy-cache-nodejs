@@ -1,0 +1,21 @@
+{
+  "name": "httpProxy",
+  "version": "1.0.0",
+  "description": "http proxy cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "app",
+    "express"
+  ],
+  "author": "Joaquin Garcia Lanzas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-proxy": "^1.17.0",
+    "memory-cache": "^0.2.0",
+    "npm": "^6.0.0"
+  }
+}
