@@ -15,8 +15,11 @@ app.use(function(req, res, next){
 })
 
 app.get('/*', function(req, res){
-    res.send("Hola Mundo, Visita " + visitas);
-})
+    setTimeout(function cb(){
+        res.send("Hola Mundo, Visita " + visitas);
+    },2000);
+
+});
 
 var server = app.listen(process.env.PORT || 3001, function(){
     console.log("Servidor inicializado en el puerto ", server.address().port);
